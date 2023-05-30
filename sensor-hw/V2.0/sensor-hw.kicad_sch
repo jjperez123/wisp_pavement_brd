@@ -1,0 +1,65 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 55528413-c8da-463c-8fa0-4d866d881d6a)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 34.925 37.465) (size 49.53 41.91) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 2cbc6153-932e-440a-8371-60dc02b8f5df)
+    (property "Sheetname" "LTC3331" (at 34.925 36.7534 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "EH.kicad_sch" (at 34.925 79.9596 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "sensor-hw"
+        (path "/55528413-c8da-463c-8fa0-4d866d881d6a" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 120.015 34.925) (size 52.07 94.615) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 518ff5f7-f453-4b34-9ad0-58dfc1ce712d)
+    (property "Sheetname" "STM32WL55xx" (at 120.015 34.2134 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "MCU.kicad_sch" (at 120.015 130.1246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "sensor-hw"
+        (path "/55528413-c8da-463c-8fa0-4d866d881d6a" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 207.645 38.735) (size 52.705 38.1) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 6b7b05ff-7cf3-4ad9-b342-188c2f168f74)
+    (property "Sheetname" "Radio" (at 207.645 38.0234 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Radio.kicad_sch" (at 207.645 77.4196 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "sensor-hw"
+        (path "/55528413-c8da-463c-8fa0-4d866d881d6a" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
