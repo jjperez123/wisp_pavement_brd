@@ -380,7 +380,7 @@
     ],
     [
       "6b7b05ff-7cf3-4ad9-b342-188c2f168f74",
-      "Radio"
+      "U_STM32_microcontroller_RF"
     ],
     [
       "2cbc6153-932e-440a-8371-60dc02b8f5df",
@@ -389,6 +389,10 @@
     [
       "518ff5f7-f453-4b34-9ad0-58dfc1ce712d",
       "STM32WL55xx"
+    ],
+    [
+      "8becdbfa-2fe0-4f41-ad86-61586af4c38d",
+      "U_STM32_microcontroller_power"
     ]
   ],
   "text_variables": {}
